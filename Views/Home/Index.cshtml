@@ -1,0 +1,66 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@section Scripts {
+    <script src="~/lib/tailwind-elements/dist/js/index.bundle.min.js"></script>
+}
+
+<div
+  class="block w-full rounded-lg bg-light text-left text-surface shadow-secondary-1 dark:bg-surface-dark dark:text-white">
+  <div class="p-6">
+    <p class="text-base"style="text-align:center">Liste des clients</p>
+  </div>
+  <div class="flex flex-col">
+  <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
+    <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
+      <div class="overflow-hidden">
+        <table
+          class="min-w-full text-center text-sm font-light text-surface dark:text-white">
+          <thead
+            class="border-b border-neutral-200 font-medium dark:border-white/10">
+            <tr>
+              <th scope="col" class="px-6 py-4">Class</th>
+              <th scope="col" class="px-6 py-4">Heading</th>
+              <th scope="col" class="px-6 py-4">Heading</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border-b border-neutral-200 dark:border-white/10">
+              <td class="whitespace-nowrap px-6 py-4 font-medium">
+                Default
+              </td>
+              <td class="whitespace-nowrap px-6 py-4">Cell</td>
+              <td class="whitespace-nowrap px-6 py-4">Cell</td>
+            </tr>
+            <tr
+              class="border-b border-primary-200 bg-primary-100 text-neutral-800">
+              <td class="whitespace-nowrap px-6 py-4 font-medium">
+                Primary
+              </td>
+              <td class="whitespace-nowrap px-6 py-4">Cell</td>
+              <td class="whitespace-nowrap px-6 py-4">Cell</td>
+            </tr>
+            <tr
+              class="border-b border-secondary-200 bg-secondary-100 text-neutral-800">
+              <td class="whitespace-nowrap px-6 py-4 font-medium">
+                Secondary
+              </td>
+              <td class="whitespace-nowrap px-6 py-4">Cell</td>
+              <td class="whitespace-nowrap px-6 py-4">Cell</td>
+            </tr>
+            
+            
+            
+            
+            
+           
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
